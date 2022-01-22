@@ -33,3 +33,7 @@ a:hover {
 img {
   height: 400px;
 }
+
+.container {
+  padding: 30px;
+}
