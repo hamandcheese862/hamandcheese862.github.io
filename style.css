@@ -5,22 +5,21 @@
 body {
   width: 100vh;
   height: 100vw;
-  background-color: #d0e0e3;
-  animation: rainbow 15s cubic-bezier(1, 1, 1, 1) infinite;
+  background-color: white;
+  animation: rainbow 10s cubic-bezier(1, 1, 1, 1) infinite;
 }
 
 @keyframes rainbow {
   0% {
-    background-color: #d0e0e3;
+    background-color: white;
   }
   
   50% {
-    background-color: #ecf0f1;
-  }
+background-color:#b7dadb;
 
   }
   100% {
-    background-color: #d0e0e3;
+    background-color: white;
   }
 }
 
