@@ -27,5 +27,5 @@ a {
 }
 
 a:hover {
-  color: white;
+  opacity: 0.5;
 }
