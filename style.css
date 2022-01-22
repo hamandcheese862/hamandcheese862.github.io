@@ -3,8 +3,8 @@
   padding: 0;
 }
 body {
-  width: 100vh;
-  height: 100vw;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   animation: rainbow 10s cubic-bezier(1, 1, 1, 1) infinite;
 }
@@ -13,13 +13,11 @@ body {
   0% {
     background-color: white;
   }
-  
-  50% {
-background-color:#b7dadb;
 
+  50% {
+    background-color: #b7dadb;
   }
   100% {
     background-color: white;
   }
 }
-
