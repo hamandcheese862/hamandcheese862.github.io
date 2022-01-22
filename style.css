@@ -13,19 +13,11 @@ body {
 }
 
 .item2 {
-  grid-area: menu;
+  grid-area: main;
 }
 
 .item3 {
-  grid-area: main;
-}
-
-.item4 {
-  grid-area: main;
-}
-
-.item5 {
-  grid-area: main;
+  grid-area: right;
 }
 
 header {
@@ -47,8 +39,8 @@ h1 span {
   display: grid;
   grid-template-areas:
     "header header header header header header"
-    "menu main main main main main"
-    "menu main main main main main";
+    "menu main main right right right"
+    "menu main main right right right";
   grid-gap: 10px;
   padding: 10px;
 }
