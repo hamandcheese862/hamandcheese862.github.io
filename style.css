@@ -37,3 +37,7 @@ img {
 .container {
   padding: 30px;
 }
+
+.projects {
+  width: 70vw;
+}
