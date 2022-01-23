@@ -35,5 +35,6 @@ a:hover {
 }
 
 img {
-  width: 60vw;
+  width: 40vw;
+  padding: 30px;
 }
