@@ -1,1 +1,15 @@
+body {
+  background-color: plum;
+}
 
+h1 #span1 {
+  font-family: cursive;
+}
+
+h1 #span2 {
+  font-family: serif;
+}
+
+h1 {
+  font-size: 9rem;
+}
