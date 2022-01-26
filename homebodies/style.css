@@ -60,4 +60,28 @@ h1 {
   p {
     text-align: left;
   }
+
+  .line-1 {
+    position: relative;
+    top: 0%;
+    width: auto;
+    margin: auto;
+    font-size: 180%;
+    text-align: center;
+    white-space: normal;
+    overflow: auto;
+    transform: none;
+  }
+
+  #typinganimation {
+    animation: none;
+  }
+
+  #typinganimation2 {
+    animation: none;
+  }
+
+  #typinganimation3 {
+    animation: none;
+  }
 }
