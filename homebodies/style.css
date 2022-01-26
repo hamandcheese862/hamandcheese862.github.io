@@ -27,20 +27,21 @@ h1 {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
+  letter-spacing: 0.15em;
   transform: translateY(-50%);
 }
 
 /* Animation */
 #typinganimation {
-  animation: typewriter 4s steps(40) 1s 1 normal both;
+  animation: typewriter 2.8s ease-out 0.5s 1 normal both;
 }
 
 #typinganimation2 {
-  animation: typewriter 4s steps(40) 4s 1 normal both;
+  animation: typewriter 3.5s ease-out 2.3s 1 normal both;
 }
 
 #typinganimation3 {
-  animation: typewriter 4s steps(40) 8s 1 normal both;
+  animation: typewriter 3.7s ease-out 5s 1 normal both;
 }
 
 @keyframes typewriter {
