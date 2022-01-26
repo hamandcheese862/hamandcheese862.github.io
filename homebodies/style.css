@@ -18,8 +18,46 @@ h1 {
   text-align: center;
 }
 
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+#typinganimation {
+  animation: typewriter 4s steps(40) 1s 1 normal both;
+}
+
+#typinganimation2 {
+  animation: typewriter 4s steps(40) 4s 1 normal both;
+}
+
+#typinganimation3 {
+  animation: typewriter 4s steps(40) 8s 1 normal both;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 2rem;
+  }
+
+  p {
+    text-align: left;
   }
 }
