@@ -18,34 +18,17 @@ h1 {
   text-align: center;
 }
 
-.marquee {
-  width: 100%;
-  overflow: hidden;
+.line-1 {
   position: relative;
-}
-
-.marquee div {
-  display: block;
-
-  width: 100vw;
-  position: absolute;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
   overflow: hidden;
-  font-size: 3rem;
-  animation: animate 10s linear infinite;
-}
-
-.marquee p {
-  float: left;
-  width: 100%;
-}
-
-@keyframes animate {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
+  letter-spacing: 0.15em;
+  transform: translateY(-50%);
 }
 
 @media only screen and (max-width: 800px) {
