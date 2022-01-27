@@ -31,28 +31,6 @@ h1 {
   transform: translateY(-50%);
 }
 
-/* Animation */
-#typinganimation {
-  animation: typewriter 2.8s ease-out 0.5s 1 normal both;
-}
-
-#typinganimation2 {
-  animation: typewriter 3.5s ease-out 2.3s 1 normal both;
-}
-
-#typinganimation3 {
-  animation: typewriter 3.7s ease-out 5s 1 normal both;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 24em;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 2rem;
@@ -72,17 +50,5 @@ h1 {
     white-space: normal;
     overflow: auto;
     transform: none;
-  }
-
-  #typinganimation {
-    animation: none;
-  }
-
-  #typinganimation2 {
-    animation: none;
-  }
-
-  #typinganimation3 {
-    animation: none;
   }
 }
